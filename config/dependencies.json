@@ -1,0 +1,10 @@
+{
+    "dependencies" : [
+        // Commands
+        {
+            "interfaces" : "ride\\library\\cli\\command\\Command",
+            "class" : "ride\\testing\\command\\TestdbGenerateCommand",
+            "id" : "testdb.generate"
+        }
+    ]
+}

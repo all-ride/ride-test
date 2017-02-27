@@ -1,0 +1,7 @@
+{
+    "database.connection.mazdea" : "sqlite:\/\/%application%/test/test.db",
+    "selenium.browser.type" : "chrome",
+    "selenium.browser.host" : "http://mazdea.local.statik.be",
+    "selenium.timeout" : 10000,
+    "system.image" : "gd"
+}

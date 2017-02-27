@@ -1,0 +1,29 @@
+{
+    "name": "ride/testing",
+    "description": "Bridge between PHPUnit, Selenium and Ride",
+    "type": "library",
+    "authors": [
+        {
+            "name": "BrenDt",
+            "email": "brent@statik.be"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "facebook/webdriver": "^1.3",
+        "fzaninotto/faker": "^1.6",
+        "larapack/dd": "^1.1",
+        "phpunit/phpunit": "^5.0",
+        "phpunit/phpunit-selenium": "^3.0",
+        "se/selenium-server-standalone": "^3.1",
+        "ride/lib-cli": "^1.0",
+        "ride/lib-orm": "^1.0",
+        "ride/lib-system": "^1.1",
+        "ride/app": "^1.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "ride\\testing\\" : "src"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<!-- COPY THIS FILE TO THE PROJECT ROOT -->
+
+<phpunit
+        backupGlobals="false"
+        backupStaticAttributes="false"
+        bootstrap="application/test/bootstrap.php"
+        colors="true"
+        testsuite="default">
+
+    <testsuites>
+        <testsuite name="default">
+            <directory>application/test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
