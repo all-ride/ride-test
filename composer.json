@@ -15,7 +15,7 @@
         "larapack/dd": "^1.1",
         "phpunit/phpunit": "^5.0",
         "phpunit/phpunit-selenium": "^3.0",
-        "se/selenium-server-standalone": "^2.0",
+        "se/selenium-server-standalone": "^3.0",
         "ride/lib-cli": "^1.0",
         "ride/lib-orm": "^1.0",
         "ride/lib-system": "^1.1",
