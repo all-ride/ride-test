@@ -3,7 +3,7 @@
         // Commands
         {
             "interfaces" : "ride\\library\\cli\\command\\Command",
-            "class" : "ride\\testing\\command\\TestdbGenerateCommand",
+            "class" : "ride\\test\\command\\TestdbGenerateCommand",
             "id" : "testdb.generate"
         }
     ]

@@ -1,6 +1,6 @@
 <?php
 
-namespace ride\testing;
+namespace ride\test;
 
 use Facebook\WebDriver\Remote\RemoteWebDriver;
 use Facebook\WebDriver\Remote\WebDriverCapabilityType;

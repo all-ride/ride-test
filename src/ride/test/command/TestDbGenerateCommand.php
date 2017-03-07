@@ -1,6 +1,6 @@
 <?php
 
-namespace ride\testing\command;
+namespace ride\test\command;
 
 use ride\library\cli\command\AbstractCommand;
 use ride\library\database\Dsn;

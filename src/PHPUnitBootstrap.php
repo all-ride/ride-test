@@ -6,8 +6,8 @@ if (file_exists($autoloader)) {
     include_once $autoloader;
 }
 
-require_once __DIR__ . '/ride/testing/RideTestCase.php';
-require_once __DIR__ . '/ride/testing/SeleniumRideTestCase.php';
+require_once __DIR__ . '/ride/test/RideTestCase.php';
+require_once __DIR__ . '/ride/test/SeleniumRideTestCase.php';
 
 $bootstrap = new PHPUnitBootstrap();
 
