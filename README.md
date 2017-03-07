@@ -3,7 +3,7 @@
 This library bridges the gap between PHPUnit, Selenium and Ride.
 
 ```sh
-composer require --dev ride/testing
+composer require --dev ride/test
 ```
 
 ## Installation

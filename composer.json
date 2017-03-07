@@ -25,8 +25,5 @@
         "psr-4" : {
             "ride\\testing\\" : "src"
         }
-    },
-    "require-dev": {
-        "ride/testing": "^0.1.0"
     }
 }
