@@ -21,9 +21,9 @@
         "ride/lib-system": "^1.1",
         "ride/app": "^1.0"
     },
-    "autoload" : {
-        "psr-4" : {
-            "ride\\testing\\" : "src"
+    "autoload": {
+        "psr-0": {
+            "ride\\test\\": ["src/"]
         }
     }
 }

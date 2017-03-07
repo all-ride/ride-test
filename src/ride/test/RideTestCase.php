@@ -1,6 +1,6 @@
 <?php
 
-namespace ride\testing;
+namespace ride\test;
 
 use PHPUnit\Framework\TestCase;
 
