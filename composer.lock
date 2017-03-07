@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "738853cb3c6c63fba8043e972c5d0d9d",
-    "content-hash": "c9d315a0a5dff9b73ec6722db7dbb6e3",
+    "hash": "d00aa07d820e04eb75c1b14dd6fc3eb1",
+    "content-hash": "9983bc81bda1ff2ac45666393ee76114",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -1482,16 +1482,16 @@
         },
         {
             "name": "se/selenium-server-standalone",
-            "version": "v3.1.0",
+            "version": "v2.53.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sveneisenschmidt/selenium-server-standalone.git",
-                "reference": "02fabc5d03e7c0bcd399052bb1257ec6425a99b3"
+                "reference": "ef4eea9c99efb9c0e3084e9cae625662ccd43361"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sveneisenschmidt/selenium-server-standalone/zipball/02fabc5d03e7c0bcd399052bb1257ec6425a99b3",
-                "reference": "02fabc5d03e7c0bcd399052bb1257ec6425a99b3",
+                "url": "https://api.github.com/repos/sveneisenschmidt/selenium-server-standalone/zipball/ef4eea9c99efb9c0e3084e9cae625662ccd43361",
+                "reference": "ef4eea9c99efb9c0e3084e9cae625662ccd43361",
                 "shasum": ""
             },
             "require-dev": {
@@ -1517,7 +1517,7 @@
                 "selenium",
                 "testing"
             ],
-            "time": "2017-02-24 11:19:19"
+            "time": "2016-07-01 14:16:52"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
