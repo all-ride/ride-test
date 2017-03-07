@@ -1,5 +1,5 @@
 {
-    "name": "ride/testing",
+    "name": "ride/test",
     "description": "Bridge between PHPUnit, Selenium and Ride",
     "type": "library",
     "authors": [
@@ -25,5 +25,8 @@
         "psr-4" : {
             "ride\\testing\\" : "src"
         }
+    },
+    "require-dev": {
+        "ride/testing": "^0.1.0"
     }
 }
