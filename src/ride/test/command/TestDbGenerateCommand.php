@@ -9,7 +9,7 @@ use ride\library\orm\exception\ModelException;
 use ride\library\orm\OrmManager;
 use ride\library\system\file\browser\FileBrowser;
 
-class TestdbGenerateCommand extends AbstractCommand {
+class TestDbGenerateCommand extends AbstractCommand {
 
     const ARGUMENT_FILE = 'file';
 
