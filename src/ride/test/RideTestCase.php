@@ -40,26 +40,7 @@ abstract class RideTestCase extends TestCase {
     /**
      * Setup a clean database.
      */
-    public function setUp() {
-        $this->createDatabase();
-    }
-
-    /**
-     * Remove the database.
-     */
-    public function tearDown() {
-        $this->removeDatabase();
-    }
-
-    /**
-     * Constructing a new Ride PHPUnit test will automatically initialize a Ride System, and setting the dependency
-     * injector. Default parameters are loaded from application/src/bootstrap.php.
-     *
-     * @see \ride\application\system\System
-     */
-    public function __construct() {
-        parent::__construct();
-
+    protected function setUp() {
         include './application/src/bootstrap.php';
         $parameters['environment'] = static::SYSTEM_ENVIRONMENT;
 
@@ -68,6 +49,17 @@ abstract class RideTestCase extends TestCase {
 
         $this->system = $system;
         $this->dependencyInjector = $system->getDependencyInjector();
+
+        $this->createDatabase();
+    }
+
+    /**
+     * Remove the database.
+     */
+    protected function tearDown() {
+        unset($this->system);
+        unset($this->dependencyInjector);
+        $this->removeDatabase();
     }
 
     /**
