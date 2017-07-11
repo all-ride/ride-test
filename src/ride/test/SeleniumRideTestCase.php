@@ -47,15 +47,16 @@ abstract class SeleniumRideTestCase extends RideTestCase {
     /**
      * Create the web driver and setup a clean database.
      */
-    public function setUp() {
+    protected function setUp() {
+        parent::setUp();
+
         $this->createDriver();
-        $this->createDatabase();
     }
 
     /**
      * Quit the web driver and remove the database.
      */
-    public function tearDown() {
+    protected function tearDown() {
         $this->quitDriver();
         $this->removeDatabase();
     }
