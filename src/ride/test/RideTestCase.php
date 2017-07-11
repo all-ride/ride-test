@@ -41,7 +41,7 @@ abstract class RideTestCase extends TestCase {
      * Setup a clean database.
      */
     protected function setUp() {
-        include './application/src/bootstrap.php';
+        include __DIR__ . '/../../TestCaseBootstrap.php';
         $parameters['environment'] = static::SYSTEM_ENVIRONMENT;
 
         $system = new System($parameters);
